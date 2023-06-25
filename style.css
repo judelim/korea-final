@@ -1,0 +1,265 @@
+body {
+  height: 1vh;
+  width: 100%;
+}
+#header {
+  display: flex;
+}
+#searchbox {
+  width: 500px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px 30px;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#google {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 1.5%;
+  left: 23%;
+  font-weight: 450;
+  display: flex;
+}
+#G {
+  color: #4285f4;
+}
+#o1 {
+  color: #ea4335;
+}
+#o2 {
+  color: #fbbc05;
+}
+#g {
+  color: #4285f4;
+}
+#l {
+  color: #34a853;
+}
+#e {
+  color: #ea4335;
+}
+#logo {
+  height: 30px;
+  width: 30px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+#logo2 {
+  height: 16px;
+  width: 16px;
+
+  padding-right: 5px;
+}
+#box {
+  /* border: 1px solid black; */
+  height: 35px;
+  width: 430px;
+  margin-left: 5px;
+  margin-top: 1.5px;
+}
+#search1 {
+  margin-top: 10px;
+}
+#box:hover {
+  cursor: auto;
+}
+#box2 {
+  display: none;
+  width: 500px;
+  height: 250px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0 0 30px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  font-size: 16px;
+  background-color: lightgray;
+}
+#result {
+  margin-left: 30px;
+  color: black;
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#image {
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#video {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#news {
+  position: absolute;
+  top: 10%;
+  left: 43%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#book {
+  position: absolute;
+  top: 10%;
+  left: 47%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#map {
+  position: absolute;
+  top: 10%;
+  left: 51%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#shopping {
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#say {
+  position: absolute;
+  top: 10%;
+  left: 59%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+#man {
+  position: absolute;
+  top: 10%;
+  left: 63%;
+  border: 1px solid black;
+  border-radius: 30px 30px;
+  padding: 5px;
+}
+hr {
+  width: 90%;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+.result {
+  width: 48%;
+  height: 100px;
+  position: absolute;
+  left: 8%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#result1 {
+  top: 22%;
+}
+#result2 {
+  top: 37%;
+}
+#result3 {
+  top: 52%;
+}
+#result4 {
+  top: 67%;
+}
+#result5 {
+  top: 82%;
+}
+
+.pics {
+  width: 29%;
+  height: 75%;
+  position: absolute;
+  top: 23%;
+  left: 65%;
+  border-left: 1px solid gray;
+}
+#intro {
+  color: black;
+}
+#intro_title {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+#intro_hr {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  top: 5%;
+}
+#intro_content {
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  left: 5%;
+  top: 10%;
+  text-align: center;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+.title:hover {
+  text-decoration: underline;
+}
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+#seeall {
+  border: 1px solid lightgray;
+  border-radius: 30px 30px;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 95.5%;
+  left: 25%;
+  text-align: center;
+  justify-content: center;
+  /* color: white; */
+  background-color: lightgray;
+}
+#see {
+  margin-top: 5px;
+}
+#see:hover {
+  text-decoration: underline;
+}
+#seeall_hr {
+  width: 55%;
+  position: absolute;
+  top: 96.5%;
+  left: 5%;
+}
